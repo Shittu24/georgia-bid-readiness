@@ -1,0 +1,17 @@
+{
+  "project_name": "Georgia Bid Readiness",
+  "config_version": 1,
+  "paths": {
+    "raw": "data/raw",
+    "processed": "data/processed",
+    "labels": "data/labels",
+    "logs": "logs",
+    "runs": "experiments/runs",
+    "receipts": "experiments/receipts"
+  },
+  "database": {
+    "engine": "postgresql",
+    "connection_env_var": "GBR_DATABASE_URL",
+    "hosting_status": "not_configured"
+  }
+}
