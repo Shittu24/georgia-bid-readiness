@@ -32,3 +32,6 @@ logs/**
 *.zip
 .cache/
 checkpoints/
+
+# Dashboard virtual environment
+.venv-dashboard/
