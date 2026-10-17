@@ -1,0 +1,51 @@
+{
+  "checked_at_utc": "2026-10-17T15:33:24.672803+00:00",
+  "backup_file": "data/processed/database_backups/georgia_bid_readiness_20261017T152937.dump",
+  "source_database": "georgia_bid_readiness",
+  "restore_database": "gbr_restore_check_20261017t153321887561",
+  "all_table_contents_match": true,
+  "checks": [
+    {
+      "table": "solicitations",
+      "source_rows": 1,
+      "restored_rows": 1,
+      "contents_match": true
+    },
+    {
+      "table": "documents",
+      "source_rows": 12,
+      "restored_rows": 12,
+      "contents_match": true
+    },
+    {
+      "table": "document_versions",
+      "source_rows": 12,
+      "restored_rows": 12,
+      "contents_match": true
+    },
+    {
+      "table": "pipeline_runs",
+      "source_rows": 3,
+      "restored_rows": 3,
+      "contents_match": true
+    },
+    {
+      "table": "document_observations",
+      "source_rows": 24,
+      "restored_rows": 24,
+      "contents_match": true
+    },
+    {
+      "table": "page_extractions",
+      "source_rows": 28,
+      "restored_rows": 28,
+      "contents_match": true
+    },
+    {
+      "table": "page_reviews",
+      "source_rows": 1,
+      "restored_rows": 1,
+      "contents_match": true
+    }
+  ]
+}
