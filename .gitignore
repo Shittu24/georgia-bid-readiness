@@ -35,3 +35,6 @@ checkpoints/
 
 # Dashboard virtual environment
 .venv-dashboard/
+
+# Test cache
+.pytest_cache/
