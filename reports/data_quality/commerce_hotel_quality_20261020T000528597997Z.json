@@ -1,0 +1,60 @@
+{
+  "checked_at_utc": "2026-10-20T00:05:28.598235+00:00",
+  "scope": {
+    "solicitation_id": "commerce-ga-26-008",
+    "extraction_run_id": "20261019T235650287784Z",
+    "expected_addenda": 2
+  },
+  "sql_file": "warehouse/tests/001_commerce_packet_quality.sql",
+  "all_checks_passed": true,
+  "results": [
+    {
+      "check_name": "01_run_and_packet_present",
+      "description": "Extraction run and complete expected input packet exist",
+      "failure_count": 0,
+      "passed": true
+    },
+    {
+      "check_name": "02_original_count",
+      "description": "Exactly one original solicitation is registered",
+      "failure_count": 0,
+      "passed": true
+    },
+    {
+      "check_name": "03_amendment_sequence",
+      "description": "Amendments match the expected sequence with no duplicates",
+      "failure_count": 0,
+      "passed": true
+    },
+    {
+      "check_name": "04_document_page_coverage",
+      "description": "Every input document version has the expected number of pages",
+      "failure_count": 0,
+      "passed": true
+    },
+    {
+      "check_name": "05_page_numbering",
+      "description": "Page numbers cover 1 through the expected final page",
+      "failure_count": 0,
+      "passed": true
+    },
+    {
+      "check_name": "06_extraction_failures",
+      "description": "No pages have extraction errors",
+      "failure_count": 0,
+      "passed": true
+    },
+    {
+      "check_name": "07_unresolved_review_flags",
+      "description": "Flagged pages have a resolved latest review and no pending OCR",
+      "failure_count": 0,
+      "passed": true
+    },
+    {
+      "check_name": "08_processing_lineage",
+      "description": "Parent is an ingestion run and every page matches its observed version",
+      "failure_count": 0,
+      "passed": true
+    }
+  ]
+}
