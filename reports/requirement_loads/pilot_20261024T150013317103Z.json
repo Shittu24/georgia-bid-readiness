@@ -1,0 +1,33 @@
+{
+  "mode": "committed",
+  "counts": {
+    "model_runs_reused": 14,
+    "model_responses_reused": 14,
+    "response_pages_reused": 22,
+    "responses_checked": 14,
+    "requirement_candidates_reused": 32,
+    "requirement_evidence_reused": 32,
+    "evidence_exact": 10,
+    "evidence_not_exact": 22,
+    "invalid_responses_preserved": 2
+  },
+  "configuration_sha256": "e007fd81f0f59263fab2c4922eccf4482d832c9f691dc32ed628881ce6f11c9a",
+  "snapshot_id": "20261020T195757276774Z",
+  "source_run_overrides": null,
+  "artifact_hashes": {
+    "experiments/requirement_pilot_v1/evaluation_v2/commerce-ga-26-008-addendum-01_p01_two_shot.json": "e0a818887880df34379ced9f05f6b1fd0e548d4c2ded50ef236f6900abb235b4",
+    "experiments/requirement_pilot_v1/evaluation_v2/commerce-ga-26-008-addendum-01_p01_zero_shot.json": "4f24f65050c90500a021f3caa5cb317a2f86e6d07990256ffd967de4755105cf",
+    "experiments/requirement_pilot_v1/evaluation_v2/commerce-ga-26-008-addendum-02_p01_two_shot.json": "a00228c8eca2133daeb3512918b79507cd71a7e54f3902d5f06ea9d4c9d4c072",
+    "experiments/requirement_pilot_v1/evaluation_v2/commerce-ga-26-008-addendum-02_p01_zero_shot.json": "38319f40b19837c8f8ea4410ef635166a49ba1f6deb764ea490ea9f6ac2f5d2d",
+    "experiments/requirement_pilot_v1/evaluation_v2/commerce-ga-26-008-original_p01_two_shot.json": "e905ea96b45d902e0cbde693f0869bcc04ba1e9fa188341d991ef0c1d18a192f",
+    "experiments/requirement_pilot_v1/evaluation_v2/commerce-ga-26-008-original_p01_zero_shot.json": "0f49533511370320fac63c1d21d87a566e0a7010e30ba70c60cae90ad3286f6a",
+    "experiments/requirement_pilot_v1/evaluation_v2/commerce-ga-26-008-original_p02_two_shot.json": "7d9adf3dde678540709e408080e5339353e00181656854fb62394b266cfb6bbe",
+    "experiments/requirement_pilot_v1/evaluation_v2/commerce-ga-26-008-original_p02_zero_shot.json": "14bfc76f562177987019e0ea4fa2b878c8b9392215d0212299c7318b39a9776c",
+    "experiments/requirement_pilot_v1/evaluation_v2/commerce-ga-26-008-original_p03_two_shot.json": "d92581ffdde71abfbfe7126981bef0c748bd802b7c528337f7df966a9e8d692b",
+    "experiments/requirement_pilot_v1/evaluation_v2/commerce-ga-26-008-original_p03_zero_shot.json": "74fab1e6bf6da86d3a8929c912f88a27a0308913ae2903cf46ba6bfe66cf3984",
+    "experiments/requirement_pilot_v1/evaluation_v2/commerce-ga-26-008-original_p04_two_shot.json": "ad609d9d6ffd0e2994645078315d87d0ff0d6e43996fa7b6a6b3b61ced6ae58e",
+    "experiments/requirement_pilot_v1/evaluation_v2/commerce-ga-26-008-original_p04_zero_shot.json": "79c0d3c9410ae8a7b6be8d1c1e54e6a421521c38550fd4093aa2a3f596e2d165",
+    "experiments/requirement_pilot_v1/evaluation_v2/commerce-ga-26-008-original_p12_two_shot.json": "fdc3e055a1d839114c6261afd6cc9f5489fe0247650c2847e5a1a4ab22082fc2",
+    "experiments/requirement_pilot_v1/evaluation_v2/commerce-ga-26-008-original_p12_zero_shot.json": "14fbf2c4bcfcd67fdff62b87927497f92828a25d39098864da884f177a5cc157"
+  }
+}
