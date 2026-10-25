@@ -1,0 +1,13 @@
+{
+  "database": "gbr_de_test_898b5fbfa14a4d44",
+  "counts": {
+    "canonical_requirements": 17,
+    "canonical_assertions": 14,
+    "split_requirements": 4,
+    "split_requirement_origins": 6,
+    "split_requirement_reviews": 4,
+    "amendment_relations": 0,
+    "canonical_split_assertions": 4
+  },
+  "scope": "Report smoke test: real saved model/review artifacts with synthetic metadata and synthetic filler pages to represent 19 source-page records; dbt build and closeout report passed."
+}

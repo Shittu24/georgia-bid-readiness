@@ -6,7 +6,7 @@ candidates as(select solicitation_id,count(*) candidates,count(*) filter(where r
 count(*) filter(where review_status='rejected') rejected_candidates,count(*) filter(where review_status='needs_followup') followup_candidates,
 count(*) filter(where review_status='unreviewed') unreviewed_candidates from {{ ref('fct_requirement_candidate') }} group by 1),
 canon as(select solicitation_id,count(distinct canonical_id) canonical_groups,count(*) source_assertions
-from {{ ref('fct_canonical_assertion') }} where review_is_current group by 1),
+from {{ ref('fct_current_requirement_assertion') }} group by 1),
 splits as(select solicitation_id,count(*) split_drafts,count(*) filter(where review_status='unreviewed') unreviewed_splits from {{ ref('fct_split_requirement') }} group by 1)
 select s.solicitation_id,s.agency_name,s.solicitation_number,s.title,
 coalesce(d.documents,0) documents,coalesce(p.extraction_records,0) extraction_records,

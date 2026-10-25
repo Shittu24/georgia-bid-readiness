@@ -1,0 +1,11 @@
+{
+  "python_tests": 48,
+  "dbt_models": 17,
+  "dbt_tests": 42,
+  "full_pipeline_runs": 2,
+  "scope": "Local PostgreSQL 18; real saved outputs/reviews with synthetic source database metadata. School and GitHub runs pending.",
+  "approved_splits": 4,
+  "distinct_requirements": 17,
+  "current_source_assertions": 18,
+  "resolved_parents": 3
+}

@@ -38,11 +38,11 @@ jobs:
           from pathlib import Path
           import psycopg
           with psycopg.connect(autocommit=True) as conn:
-              for name in ['001_core_schema.sql', '002_requirement_processing.sql', '003_canonical_requirements.sql', '004_split_requirements.sql']:
+              for name in ['001_core_schema.sql', '002_requirement_processing.sql', '003_canonical_requirements.sql', '004_split_requirements.sql', '005_split_closeout.sql']:
                   with conn.transaction():
                       conn.execute((Path('warehouse/ddl') / name).read_text())
           PY
-      - run: python -m pytest tests/test_requirement_loader.py tests/test_canonical_requirements.py tests/test_review_importer.py tests/test_de_completion.py -v --junitxml=reports/de_ci_tests.xml
+      - run: python -m pytest tests/test_requirement_loader.py tests/test_canonical_requirements.py tests/test_review_importer.py tests/test_de_completion.py tests/test_split_closeout.py -v --junitxml=reports/de_ci_tests.xml
       - run: python tests/seed_dbt_ci.py
       - run: dbt build --project-dir dbt_gbr --profiles-dir dbt_gbr
       - uses: actions/upload-artifact@v4

@@ -1,0 +1,20 @@
+version: 2
+sources:
+  - name: closeout_reporting
+    schema: reporting
+    tables:
+      - name: current_requirement_assertions
+      - name: split_parent_resolution
+models:
+  - name: fct_current_requirement_assertion
+    columns:
+      - name: assertion_key
+        tests: [unique, not_null]
+  - name: fct_split_parent_resolution
+    columns:
+      - name: candidate_id
+        tests: [unique, not_null]
+  - name: mart_de_closeout
+    columns:
+      - name: solicitation_id
+        tests: [unique, not_null]

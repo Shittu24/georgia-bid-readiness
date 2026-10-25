@@ -1,0 +1,124 @@
+{
+  "human_approval": "Approve all four",
+  "reviewer": "Ibrahim Shittu",
+  "reviewed_at": "2026-10-25T19:45:39.516304+00:00",
+  "timestamp_note": "Package recording time; exact message timestamp unavailable.",
+  "authorization_source": "Explicit response to the four-item approval question in this conversation.",
+  "solicitation_id": "commerce-ga-26-008",
+  "splits": [
+    {
+      "split_id": "hotel-26-008-addendum-01-sign",
+      "origin_candidate_ids": [
+        "pilot-396ff69dd9c4b009d9ff1fdbdc544192b1ad8ad446ac50a2879b4b1ee3b865b9-1",
+        "pilot-630b17872d4be8e5bc3676323e6549a4bffe77369a997743dc2f10ebccbfb901-1"
+      ],
+      "payload": {
+        "requirement": "Sign Addendum 1.",
+        "condition": null,
+        "deadline_text": null,
+        "evidence": [
+          {
+            "page_number": 1,
+            "quote": "This addendum should be signed and returned with your proposal. Failure to do so may result in the proposal being\nnon-responsive."
+          }
+        ]
+      }
+    },
+    {
+      "split_id": "hotel-26-008-addendum-01-return",
+      "origin_candidate_ids": [
+        "pilot-396ff69dd9c4b009d9ff1fdbdc544192b1ad8ad446ac50a2879b4b1ee3b865b9-1",
+        "pilot-630b17872d4be8e5bc3676323e6549a4bffe77369a997743dc2f10ebccbfb901-1"
+      ],
+      "payload": {
+        "requirement": "Return Addendum 1 with the proposal.",
+        "condition": null,
+        "deadline_text": "with your proposal",
+        "evidence": [
+          {
+            "page_number": 1,
+            "quote": "This addendum should be signed and returned with your proposal. Failure to do so may result in the proposal being\nnon-responsive."
+          }
+        ]
+      }
+    },
+    {
+      "split_id": "hotel-26-008-addendum-02-sign",
+      "origin_candidate_ids": [
+        "pilot-e504294fe4ddfdf1f989a9e495e74f67c3ddf98c77a7ba89019a1ceeba024c93-1"
+      ],
+      "payload": {
+        "requirement": "Sign Addendum 2.",
+        "condition": null,
+        "deadline_text": null,
+        "evidence": [
+          {
+            "page_number": 1,
+            "quote": "This addendum should be signed and returned with your proposal. Failure to do so may result in the proposal being\nnon-responsive."
+          }
+        ]
+      }
+    },
+    {
+      "split_id": "hotel-26-008-addendum-02-return",
+      "origin_candidate_ids": [
+        "pilot-e504294fe4ddfdf1f989a9e495e74f67c3ddf98c77a7ba89019a1ceeba024c93-1"
+      ],
+      "payload": {
+        "requirement": "Return Addendum 2 with the proposal.",
+        "condition": null,
+        "deadline_text": "with your proposal",
+        "evidence": [
+          {
+            "page_number": 1,
+            "quote": "This addendum should be signed and returned with your proposal. Failure to do so may result in the proposal being\nnon-responsive."
+          }
+        ]
+      }
+    }
+  ],
+  "parents": {
+    "pilot-396ff69dd9c4b009d9ff1fdbdc544192b1ad8ad446ac50a2879b4b1ee3b865b9-1": {
+      "review_event_id": "review-66b462eff93ed4d4940df8b457c119b60a4b76be5033ea2e3567e3a6ee8dd7fe",
+      "sources": [
+        [
+          "20261019T235650287784Z",
+          "commerce-ga-26-008-addendum-01",
+          1,
+          "target",
+          "718446bdbed8e1b0c9bf0730a650cf65e132956e7488deded5698a1bc76e32c3",
+          "26317a58c7ea0366e9ea1b37bd09d31978252e3c14b51399d7f3d11130e5017d",
+          "ADDENDUM #1\nRFP 26-008\n\n\nHOTEL FEASIBLITY ANALYSIS\n\n\nThis addendum is being issued to address a question for RFP 26-008:\n\n1. Will performance and bid bonds be required?\nPlease see Section 1.20 BONDING on page 3 of the RFP.\n2. What is the last day for addenda to be issued?\nThe last day for addenda to be issued will be December 15, 2025, by 4 p.m. local time prevailing.\n\nThis addendum should be signed and returned with your proposal. Failure to do so may result in the proposal being\nnon-responsive.\n\n\nDebby Peete Finance\nSpecialist City of\nCommerce\nCompany Name\n\nAuthorized Representative\nPage 1 of 1"
+        ]
+      ]
+    },
+    "pilot-630b17872d4be8e5bc3676323e6549a4bffe77369a997743dc2f10ebccbfb901-1": {
+      "review_event_id": "review-7cbb13332c0d07bb7e39a070fe6fe4e19cd11ec4f7b5c2ad18703d2a00eb6e86",
+      "sources": [
+        [
+          "20261019T235650287784Z",
+          "commerce-ga-26-008-addendum-01",
+          1,
+          "target",
+          "718446bdbed8e1b0c9bf0730a650cf65e132956e7488deded5698a1bc76e32c3",
+          "26317a58c7ea0366e9ea1b37bd09d31978252e3c14b51399d7f3d11130e5017d",
+          "ADDENDUM #1\nRFP 26-008\n\n\nHOTEL FEASIBLITY ANALYSIS\n\n\nThis addendum is being issued to address a question for RFP 26-008:\n\n1. Will performance and bid bonds be required?\nPlease see Section 1.20 BONDING on page 3 of the RFP.\n2. What is the last day for addenda to be issued?\nThe last day for addenda to be issued will be December 15, 2025, by 4 p.m. local time prevailing.\n\nThis addendum should be signed and returned with your proposal. Failure to do so may result in the proposal being\nnon-responsive.\n\n\nDebby Peete Finance\nSpecialist City of\nCommerce\nCompany Name\n\nAuthorized Representative\nPage 1 of 1"
+        ]
+      ]
+    },
+    "pilot-e504294fe4ddfdf1f989a9e495e74f67c3ddf98c77a7ba89019a1ceeba024c93-1": {
+      "review_event_id": "review-bf3ae2720c2f5a19af49367eaeffc10fdad0385e62f4947d0067e35f2085a36a",
+      "sources": [
+        [
+          "20261019T235650287784Z",
+          "commerce-ga-26-008-addendum-02",
+          1,
+          "target",
+          "57d459cf6137a121a69834540c035e524ad81b9a67cab73a2edb37918944f4c7",
+          "a54081d1631054e261121093ffda4f384c59e4237547d5064858150fd182e9fc",
+          "ADDENDUM #2\nRFP 26-008\n\n\nHOTEL FEASIBLITY ANALYSIS\n\n\nThis addendum is being issued to address a questions for RFP 26-008:\n\n\n1. Do you have a budget for this project?\nThe budget is $100,000.00.\n2. Section III \u2013 Proposal Format \u2013 In which section, should we include our methodology and timing/project\nschedule?\nUnder the Executive Summary and Mandatory Submittals section.\n3. Section 1.20 Please confirm that you require a performance and bid bond for a project of this scale. (Someone\nalready asked about the bond and Addendum 1 states to refer to the RFP; typically this is required for\nconstruction projects.)\nSee Addendum 1\n4. Section 2.3 Certifications \u2013 As a small business that provides advisory services, we are not required to\nundertake drug and alcohol testing. Please confirm it is required to provide PHMSA Drug and Alcohol testing\ndata.\nDrug testing is not required at this time.\n5. Section 3.0 E Project Scope \u2013 Is an appraisal required as the scope of work? These are typically commissioned\nby the lender.\nNo appraisal is required at this time but, may be after the contract is awarded.\n6. Section 3.0 Project Scope \u2013 Do you require a deliverable for each section (total of 4 deliverables) or can we\nprovide one deliverable inclusive of each section? (This will decrease the fee.)\nOne deliverable will be acceptable.\n7. Section 3.0 Project Scope \u2013 How many potential sites are there to review?\nThere is currently one (1) specific site. However, the City of Commerce Downtown Director is looking for\ninformation on other possible sites within the City limits with guidance from the firm awarded the contract.\n\nThis addendum should be signed and returned with your proposal. Failure to do so may result in the proposal being\nnon-responsive.\n\n\nDebby Peete Finance\nSpecialist City of\nCommerce\nCompany Name\n\nAuthorized Representative\nPage 1 of 1"
+        ]
+      ]
+    }
+  }
+}
