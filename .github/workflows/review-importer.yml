@@ -1,0 +1,42 @@
+name: Approved review importer
+on: [push, pull_request]
+permissions:
+  contents: read
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    services:
+      postgres:
+        image: postgres:17
+        env:
+          POSTGRES_USER: gbr_test
+          POSTGRES_PASSWORD: local_ci_only
+          POSTGRES_DB: gbr_test
+        ports: ['5432:5432']
+        options: >-
+          --health-cmd "pg_isready -U gbr_test -d gbr_test"
+          --health-interval 5s --health-timeout 5s --health-retries 10
+    env:
+      PGHOST: localhost
+      PGPORT: '5432'
+      PGUSER: gbr_test
+      PGPASSWORD: local_ci_only
+      PGDATABASE: gbr_test
+      GBR_RUN_DB_TESTS: '1'
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python -m pip install -r requirements-requirement-loader.txt pytest
+      - name: Create existing core schema
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          import psycopg
+          with psycopg.connect() as conn:
+              conn.execute(Path('warehouse/ddl/001_core_schema.sql').read_text())
+          PY
+      - run: python scripts/apply_requirement_schema.py
+      - run: python scripts/apply_requirement_schema.py
+      - run: python -m pytest tests/test_review_importer.py -v
