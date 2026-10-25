@@ -1,0 +1,27 @@
+version: 2
+sources:
+  - name: core
+    schema: core
+    tables:
+      - name: solicitations
+      - name: documents
+      - name: document_versions
+      - name: pipeline_runs
+      - name: page_extractions
+      - name: page_reviews
+      - name: model_runs
+      - name: model_responses
+      - name: response_pages
+      - name: requirement_candidates
+      - name: requirement_reviews
+      - name: requirement_evidence
+      - name: canonical_requirements
+      - name: canonical_assertions
+      - name: split_requirements
+      - name: split_requirement_reviews
+  - name: reporting
+    schema: reporting
+    tables:
+      - name: canonical_assertion_status
+      - name: amendment_relation_status
+      - name: split_requirement_status

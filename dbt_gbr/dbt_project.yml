@@ -1,0 +1,9 @@
+name: gbr_analytics
+version: '1.0.0'
+config-version: 2
+profile: gbr_analytics
+model-paths: [models]
+test-paths: [tests]
+models:
+  gbr_analytics:
+    +materialized: table

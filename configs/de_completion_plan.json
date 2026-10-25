@@ -1,0 +1,367 @@
+{
+  "plan_version": 1,
+  "grouping_authorized_by": "Ibrahim Shittu",
+  "scope": "Approved 14 candidates grouped into 13 obligations; split instructions remain drafts.",
+  "groups": [
+    {
+      "canonical_id": "hotel-26-008-vendor_address",
+      "label": "Vendor Address",
+      "members": [
+        {
+          "candidate_id": "pilot-4490c4f5392dec9f42ce8fc90261741ced6dec1d2251f8ef5d97e57f4b4e2cba-10",
+          "review_event_id": "review-c68c1b86c55c19ad1255b7e44ea853db4d0f7b102ad038c27681e224a087fe13",
+          "approved_payload": {
+            "evidence": [
+              {
+                "page_number": 3,
+                "quote": "Proposals must be submitted\nin a sealed envelope stating on the outside, the vendor's name, address, the RFP Number and title\nto:"
+              }
+            ],
+            "condition": null,
+            "requirement": "Show the vendor's address on the outside of the envelope.",
+            "deadline_text": null
+          }
+        }
+      ]
+    },
+    {
+      "canonical_id": "hotel-26-008-rfp_number",
+      "label": "Rfp Number",
+      "members": [
+        {
+          "candidate_id": "pilot-4490c4f5392dec9f42ce8fc90261741ced6dec1d2251f8ef5d97e57f4b4e2cba-11",
+          "review_event_id": "review-00597843507d1709d54fc66a979ac75d58f86d4747d5dcabfe5bb4ffc3e06674",
+          "approved_payload": {
+            "evidence": [
+              {
+                "page_number": 3,
+                "quote": "Proposals must be submitted\nin a sealed envelope stating on the outside, the vendor's name, address, the RFP Number and title\nto:"
+              }
+            ],
+            "condition": null,
+            "requirement": "Show the RFP number on the outside of the envelope.",
+            "deadline_text": null
+          }
+        }
+      ]
+    },
+    {
+      "canonical_id": "hotel-26-008-rfp_title",
+      "label": "Rfp Title",
+      "members": [
+        {
+          "candidate_id": "pilot-4490c4f5392dec9f42ce8fc90261741ced6dec1d2251f8ef5d97e57f4b4e2cba-12",
+          "review_event_id": "review-978623843e7b7fc9125fb691c9d2034ac6f682ee73cadecae35b594d5e559536",
+          "approved_payload": {
+            "evidence": [
+              {
+                "page_number": 3,
+                "quote": "Proposals must be submitted\nin a sealed envelope stating on the outside, the vendor's name, address, the RFP Number and title\nto:"
+              }
+            ],
+            "condition": null,
+            "requirement": "Show the RFP title on the outside of the envelope.",
+            "deadline_text": null
+          }
+        }
+      ]
+    },
+    {
+      "canonical_id": "hotel-26-008-delivery_address",
+      "label": "Delivery Address",
+      "members": [
+        {
+          "candidate_id": "pilot-4490c4f5392dec9f42ce8fc90261741ced6dec1d2251f8ef5d97e57f4b4e2cba-13",
+          "review_event_id": "review-7445c733e23fece61646b36b81a90d19d771a91608d23f0cb1a80b1ff7925c42",
+          "approved_payload": {
+            "evidence": [
+              {
+                "page_number": 3,
+                "quote": "Proposals must be submitted\nin a sealed envelope stating on the outside, the vendor's name, address, the RFP Number and title\nto:\nCity of Commerce\nP.O. Box 348\n110 State Street\nCommerce, GA 30529\nAttention: Debby Peete, Finance Specialist"
+              }
+            ],
+            "condition": null,
+            "requirement": "Deliver the proposal to City of Commerce, P.O. Box 348, 110 State Street, Commerce, GA 30529, attention Debby Peete, Finance Specialist.",
+            "deadline_text": null
+          }
+        }
+      ]
+    },
+    {
+      "canonical_id": "hotel-26-008-hand_delivery_hours",
+      "label": "Hand Delivery Hours",
+      "members": [
+        {
+          "candidate_id": "pilot-4490c4f5392dec9f42ce8fc90261741ced6dec1d2251f8ef5d97e57f4b4e2cba-14",
+          "review_event_id": "review-9a3e77ee2f388438aa4155a198a4385a5911d656f5296b2f286adab0bf9a6c2c",
+          "approved_payload": {
+            "evidence": [
+              {
+                "page_number": 3,
+                "quote": "Hand delivered copies may be delivered to the above address ONLY between the hours of 8:30\na.m. and 3:30 p.m. ET, Monday through Friday, excluding holidays observed by the City of\nCommerce."
+              }
+            ],
+            "condition": "If hand-delivering.",
+            "requirement": "Hand-deliver only between 8:30 a.m. and 3:30 p.m. ET, Monday through Friday, excluding holidays observed by the City of Commerce.",
+            "deadline_text": null
+          }
+        }
+      ]
+    },
+    {
+      "canonical_id": "hotel-26-008-submission_deadline",
+      "label": "Submission Deadline",
+      "members": [
+        {
+          "candidate_id": "pilot-4490c4f5392dec9f42ce8fc90261741ced6dec1d2251f8ef5d97e57f4b4e2cba-2",
+          "review_event_id": "review-d5a3af4a36a9826f7e09b735741e2f9e8502a4a954c0991fcdb8fafcb6b42579",
+          "approved_payload": {
+            "evidence": [
+              {
+                "page_number": 3,
+                "quote": "Submittal deadline December 22, 2025, 2:00 pm, local time prevailing"
+              }
+            ],
+            "condition": null,
+            "requirement": "Ensure the submittal is received by December 22, 2025, at 2:00 p.m. local time prevailing.",
+            "deadline_text": "December 22, 2025, 2:00 pm, local time prevailing"
+          }
+        },
+        {
+          "candidate_id": "pilot-be3dea28a4a8e326f09d4f245e9e50752a211fd383acf321f095be9f23608a14-1",
+          "review_event_id": "review-303c7af9594f4b91853f6da0e322ab60950dcef2e985f96060dfecf15a36396d",
+          "approved_payload": {
+            "evidence": [
+              {
+                "page_number": 2,
+                "quote": "SUBMISSIONS ARE DUE AT THE ADDRESS SHOWN BELOW NO LATER THAN\n\n\nDecember 22, 2025, by 2:00 pm local time prevailing"
+              }
+            ],
+            "condition": null,
+            "requirement": "Submit the proposal by December 22, 2025, by 2:00 pm local time prevailing.",
+            "deadline_text": "December 22, 2025, by 2:00 pm local time prevailing"
+          }
+        }
+      ]
+    },
+    {
+      "canonical_id": "hotel-26-008-original_copy",
+      "label": "Original Copy",
+      "members": [
+        {
+          "candidate_id": "pilot-4490c4f5392dec9f42ce8fc90261741ced6dec1d2251f8ef5d97e57f4b4e2cba-3",
+          "review_event_id": "review-6acc2c2e54c11dd394f6e0eda304621f0150704a544a2742c0347b0dbf66d1dd",
+          "approved_payload": {
+            "evidence": [
+              {
+                "page_number": 3,
+                "quote": "One (1) original, one (1) copy, and one (1) fully executable electronic copy (PDF) of the complete\nsigned submittal must be received by submittal deadline (see 1.1) ."
+              }
+            ],
+            "condition": null,
+            "requirement": "Provide one original of the submittal.",
+            "deadline_text": null
+          }
+        }
+      ]
+    },
+    {
+      "canonical_id": "hotel-26-008-paper_copy",
+      "label": "Paper Copy",
+      "members": [
+        {
+          "candidate_id": "pilot-4490c4f5392dec9f42ce8fc90261741ced6dec1d2251f8ef5d97e57f4b4e2cba-4",
+          "review_event_id": "review-4bc4ec61b36097fd80b90a85da0d9aa8af2826707249526d67e55eaf91fe94a2",
+          "approved_payload": {
+            "evidence": [
+              {
+                "page_number": 3,
+                "quote": "One (1) original, one (1) copy, and one (1) fully executable electronic copy (PDF) of the complete\nsigned submittal must be received by submittal deadline (see 1.1) ."
+              }
+            ],
+            "condition": null,
+            "requirement": "Provide one copy of the submittal.",
+            "deadline_text": null
+          }
+        }
+      ]
+    },
+    {
+      "canonical_id": "hotel-26-008-pdf_copy",
+      "label": "Pdf Copy",
+      "members": [
+        {
+          "candidate_id": "pilot-4490c4f5392dec9f42ce8fc90261741ced6dec1d2251f8ef5d97e57f4b4e2cba-5",
+          "review_event_id": "review-805ee40a83f490efdb42f294b1fc584384e46be7b4829988763d941b73e8d54d",
+          "approved_payload": {
+            "evidence": [
+              {
+                "page_number": 3,
+                "quote": "One (1) original, one (1) copy, and one (1) fully executable electronic copy (PDF) of the complete\nsigned submittal must be received by submittal deadline (see 1.1) ."
+              }
+            ],
+            "condition": null,
+            "requirement": "Provide one fully executable electronic copy of the submittal in PDF format.",
+            "deadline_text": null
+          }
+        }
+      ]
+    },
+    {
+      "canonical_id": "hotel-26-008-complete_submission",
+      "label": "Complete Submission",
+      "members": [
+        {
+          "candidate_id": "pilot-4490c4f5392dec9f42ce8fc90261741ced6dec1d2251f8ef5d97e57f4b4e2cba-6",
+          "review_event_id": "review-080fbde2bc0f075700f00373ddaeeee151f1fb769f85916161214e2a60166e9b",
+          "approved_payload": {
+            "evidence": [
+              {
+                "page_number": 3,
+                "quote": "One (1) original, one (1) copy, and one (1) fully executable electronic copy (PDF) of the complete\nsigned submittal must be received by submittal deadline (see 1.1) ."
+              }
+            ],
+            "condition": null,
+            "requirement": "Provide a complete submittal.",
+            "deadline_text": null
+          }
+        }
+      ]
+    },
+    {
+      "canonical_id": "hotel-26-008-signed_submission",
+      "label": "Signed Submission",
+      "members": [
+        {
+          "candidate_id": "pilot-4490c4f5392dec9f42ce8fc90261741ced6dec1d2251f8ef5d97e57f4b4e2cba-7",
+          "review_event_id": "review-82b88842e5de51ed026a3d1febd6901fd6caf454515d469f2c3e539892c23f93",
+          "approved_payload": {
+            "evidence": [
+              {
+                "page_number": 3,
+                "quote": "One (1) original, one (1) copy, and one (1) fully executable electronic copy (PDF) of the complete\nsigned submittal must be received by submittal deadline (see 1.1) ."
+              }
+            ],
+            "condition": null,
+            "requirement": "Provide a signed submittal.",
+            "deadline_text": null
+          }
+        }
+      ]
+    },
+    {
+      "canonical_id": "hotel-26-008-sealed_envelope",
+      "label": "Sealed Envelope",
+      "members": [
+        {
+          "candidate_id": "pilot-4490c4f5392dec9f42ce8fc90261741ced6dec1d2251f8ef5d97e57f4b4e2cba-8",
+          "review_event_id": "review-235055afc1bc5d99b5e07b69f266c43af445e8304151f1492b247b42a165996c",
+          "approved_payload": {
+            "evidence": [
+              {
+                "page_number": 3,
+                "quote": "Proposals must be submitted\nin a sealed envelope stating on the outside, the vendor's name, address, the RFP Number and title\nto:"
+              }
+            ],
+            "condition": null,
+            "requirement": "Submit the proposal in a sealed envelope.",
+            "deadline_text": null
+          }
+        }
+      ]
+    },
+    {
+      "canonical_id": "hotel-26-008-vendor_name",
+      "label": "Vendor Name",
+      "members": [
+        {
+          "candidate_id": "pilot-4490c4f5392dec9f42ce8fc90261741ced6dec1d2251f8ef5d97e57f4b4e2cba-9",
+          "review_event_id": "review-c450a9e9a50a4861fa0f31fa27c47971deb5f7d545c6fdd872541602e45b6421",
+          "approved_payload": {
+            "evidence": [
+              {
+                "page_number": 3,
+                "quote": "Proposals must be submitted\nin a sealed envelope stating on the outside, the vendor's name, address, the RFP Number and title\nto:"
+              }
+            ],
+            "condition": null,
+            "requirement": "Show the vendor's name on the outside of the envelope.",
+            "deadline_text": null
+          }
+        }
+      ]
+    }
+  ],
+  "split_drafts": [
+    {
+      "split_id": "hotel-26-008-addendum-01-sign",
+      "origin_candidate_ids": [
+        "pilot-396ff69dd9c4b009d9ff1fdbdc544192b1ad8ad446ac50a2879b4b1ee3b865b9-1",
+        "pilot-630b17872d4be8e5bc3676323e6549a4bffe77369a997743dc2f10ebccbfb901-1"
+      ],
+      "payload": {
+        "requirement": "Sign Addendum 1.",
+        "condition": null,
+        "deadline_text": null,
+        "evidence": [
+          {
+            "page_number": 1,
+            "quote": "This addendum should be signed and returned with your proposal. Failure to do so may result in the proposal being\nnon-responsive."
+          }
+        ]
+      }
+    },
+    {
+      "split_id": "hotel-26-008-addendum-01-return",
+      "origin_candidate_ids": [
+        "pilot-396ff69dd9c4b009d9ff1fdbdc544192b1ad8ad446ac50a2879b4b1ee3b865b9-1",
+        "pilot-630b17872d4be8e5bc3676323e6549a4bffe77369a997743dc2f10ebccbfb901-1"
+      ],
+      "payload": {
+        "requirement": "Return Addendum 1 with the proposal.",
+        "condition": null,
+        "deadline_text": "with your proposal",
+        "evidence": [
+          {
+            "page_number": 1,
+            "quote": "This addendum should be signed and returned with your proposal. Failure to do so may result in the proposal being\nnon-responsive."
+          }
+        ]
+      }
+    },
+    {
+      "split_id": "hotel-26-008-addendum-02-sign",
+      "origin_candidate_ids": [
+        "pilot-e504294fe4ddfdf1f989a9e495e74f67c3ddf98c77a7ba89019a1ceeba024c93-1"
+      ],
+      "payload": {
+        "requirement": "Sign Addendum 2.",
+        "condition": null,
+        "deadline_text": null,
+        "evidence": [
+          {
+            "page_number": 1,
+            "quote": "This addendum should be signed and returned with your proposal. Failure to do so may result in the proposal being\nnon-responsive."
+          }
+        ]
+      }
+    },
+    {
+      "split_id": "hotel-26-008-addendum-02-return",
+      "origin_candidate_ids": [
+        "pilot-e504294fe4ddfdf1f989a9e495e74f67c3ddf98c77a7ba89019a1ceeba024c93-1"
+      ],
+      "payload": {
+        "requirement": "Return Addendum 2 with the proposal.",
+        "condition": null,
+        "deadline_text": "with your proposal",
+        "evidence": [
+          {
+            "page_number": 1,
+            "quote": "This addendum should be signed and returned with your proposal. Failure to do so may result in the proposal being\nnon-responsive."
+          }
+        ]
+      }
+    }
+  ]
+}

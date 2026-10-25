@@ -1,0 +1,12 @@
+{
+  "database": "gbr_de_test_2bb2f4b788554b76",
+  "counts": {
+    "canonical_requirements": 13,
+    "canonical_assertions": 14,
+    "split_requirements": 4,
+    "split_requirement_origins": 6,
+    "split_requirement_reviews": 0,
+    "amendment_relations": 0
+  },
+  "scope": "Replay of real approved pilot artifacts on synthetic extraction rows; two full pipeline runs including dbt tests and restore verification. Local PostgreSQL 18."
+}

@@ -1,0 +1,72 @@
+version: 2
+models:
+  - name: dim_solicitation
+    description: "One row per solicitation."
+    columns:
+      - name: solicitation_id
+        tests: [unique, not_null]
+  - name: dim_document
+    description: "One row per logical document; addenda retain their numbers."
+    columns:
+      - name: document_id
+        tests: [unique, not_null]
+  - name: dim_document_version
+    description: "One row per document and immutable PDF hash."
+    columns:
+      - name: document_version_key
+        tests: [unique, not_null]
+  - name: dim_model_run
+    description: "One row per model configuration and prompting approach."
+    columns:
+      - name: model_run_id
+        tests: [unique, not_null]
+  - name: dim_date
+    description: "One row per operational date spanning processing and review events; no inferred bid deadlines."
+    columns:
+      - name: date_day
+        tests: [unique, not_null]
+  - name: fct_processing_run
+    description: "One row per recorded ingestion or extraction run; failed and partial runs remain visible."
+    columns:
+      - name: run_id
+        tests: [unique, not_null]
+  - name: fct_page_extraction
+    description: "One row per extraction run/document/page, including historical versions."
+    columns:
+      - name: page_extraction_key
+        tests: [unique, not_null]
+  - name: fct_model_response
+    description: "One row per actual call; schema validity is not semantic accuracy."
+    columns:
+      - name: response_id
+        tests: [unique, not_null]
+  - name: fct_requirement_candidate
+    description: "One row per original candidate with latest review; original evidence metrics remain unchanged."
+    columns:
+      - name: candidate_id
+        tests: [unique, not_null]
+  - name: fct_review_event
+    description: "One row per historical review event, not merely its latest state."
+    columns:
+      - name: review_event_id
+        tests: [unique, not_null]
+  - name: fct_canonical_assertion
+    description: "One row per reviewed source assertion; multiple assertions may support one canonical group."
+    columns:
+      - name: assertion_id
+        tests: [unique, not_null]
+  - name: fct_split_requirement
+    description: "One row per proposed split obligation; unreviewed is not accepted."
+    columns:
+      - name: split_id
+        tests: [unique, not_null]
+  - name: fct_amendment_relation
+    description: "One row per proposed amendment edge and its latest review status; empty is legitimate."
+    columns:
+      - name: relation_id
+        tests: [unique, not_null]
+  - name: mart_solicitation_overview
+    description: "One row per solicitation with independently aggregated counts, avoiding join fanout."
+    columns:
+      - name: solicitation_id
+        tests: [unique, not_null]

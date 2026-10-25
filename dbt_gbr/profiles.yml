@@ -1,0 +1,13 @@
+gbr_analytics:
+  target: cpu
+  outputs:
+    cpu:
+      type: postgres
+      host: "{{ env_var('PGHOST', '/home/jovyan/.gbr-pg-socket') }}"
+      port: "{{ env_var('PGPORT', '5432') | int }}"
+      user: "{{ env_var('PGUSER', 'jovyan') }}"
+      password: "{{ env_var('PGPASSWORD', '') }}"
+      dbname: "{{ env_var('PGDATABASE', 'georgia_bid_readiness') }}"
+      schema: "{{ env_var('GBR_ANALYTICS_SCHEMA', 'analytics_gbr') }}"
+      threads: 2
+      connect_timeout: 15

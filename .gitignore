@@ -38,3 +38,9 @@ checkpoints/
 
 # Test cache
 .pytest_cache/
+
+# DE runtime and generated dbt files
+.venv-de/
+dbt_gbr/target/
+dbt_gbr/logs/
+dbt_gbr/dbt_packages/

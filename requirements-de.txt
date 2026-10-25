@@ -1,0 +1,7 @@
+dbt-core==1.9.8
+dbt-postgres==1.9.1
+dbt-adapters==1.16.3
+dbt-common==1.27.1
+psycopg[binary]==3.3.3
+jsonschema==4.23.0
+pytest==9.1.1

@@ -1,0 +1,1 @@
+select run_id,run_type,parent_run_id,status,started_at,completed_at,started_at::date date_day,extract(epoch from completed_at-started_at) elapsed_seconds,artifact_path from {{ source('core','pipeline_runs') }}
